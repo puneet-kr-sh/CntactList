@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rapidsofttechnologies.sqlitedatabase.DisplayContact">
+
+    <item
+        android:id="@+id/Edit_Contact"
+        android:orderInCategory="100"
+        android:title="@string/edit"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_edit"
+        />
+
+    <item
+        android:id="@+id/Delete_Contact"
+        android:orderInCategory="100"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_action_delete"
+        android:showAsAction="ifRoom"/>
+</menu>
